@@ -9,6 +9,12 @@
       },
       "hash": "2ca18cfc638a13e0a2f4131f0c2f17515120d90a"
     },
+    "com.shawnhu.dropdown-searcher": {
+      "version": "file:com.shawnhu.dropdown-searcher",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.2d.animation": {
       "version": "9.1.1",
       "depth": 1,
