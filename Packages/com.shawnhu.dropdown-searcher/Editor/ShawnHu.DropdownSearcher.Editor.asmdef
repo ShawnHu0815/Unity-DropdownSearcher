@@ -1,0 +1,16 @@
+{
+    "name": "ShawnHu.DropdownSearcher.Editor",
+    "references": [
+        "ShawnHu.DropdownSearcher"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+} 

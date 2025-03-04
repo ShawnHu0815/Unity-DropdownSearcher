@@ -1,0 +1,4 @@
+repository "UnityDropdownSearcher@tj_shawnhu0815@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
