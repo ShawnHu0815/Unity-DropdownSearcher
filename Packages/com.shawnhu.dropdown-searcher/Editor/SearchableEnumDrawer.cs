@@ -13,9 +13,8 @@ namespace ShawnHu.DropdownSearcher.Editor
             {
                 var enumType = fieldInfo.FieldType;
                 var names = Enum.GetNames(enumType);
-                var values = Enum.GetValues(enumType);
                 
-                // 准备搜索文本（可以从特性中获取）
+                // 准备搜索文本
                 var searchTexts = new string[names.Length];
                 for (int i = 0; i < names.Length; i++)
                 {
@@ -30,17 +29,19 @@ namespace ShawnHu.DropdownSearcher.Editor
 
                 if (GUI.Button(position, new GUIContent($"{label.text}: {names[property.enumValueIndex]}")))
                 {
-                    SearchableDropdown.Show(
-                        position,
-                        names,
-                        searchTexts,
-                        property.enumValueIndex,
-                        label.text,
-                        (index) => 
-                        {
-                            property.enumValueIndex = index;
-                            property.serializedObject.ApplyModifiedProperties();
-                        }
+                    PopupWindow.Show(
+                        position, 
+                        new SearchablePopup(
+                            names,
+                            searchTexts,
+                            property.enumValueIndex,
+                            label.text,
+                            (index) => 
+                            {
+                                property.enumValueIndex = index;
+                                property.serializedObject.ApplyModifiedProperties();
+                            }
+                        )
                     );
                 }
 

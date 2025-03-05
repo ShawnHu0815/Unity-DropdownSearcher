@@ -7,5 +7,12 @@
   "author": {
     "name": "ShawnHu",
     "url": "https://github.com/ShawnHu0815"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "演示如何使用可搜索下拉菜单",
+      "path": "Samples/Demo"
+    }
+  ]
 }
