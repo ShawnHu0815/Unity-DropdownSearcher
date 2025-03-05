@@ -6,6 +6,11 @@
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
+.plastic/
+ignore.conf
+plastic.selector
+.plastic.selector
+.plastic.wktree
 
 # IDE generated
 .vs/
@@ -27,6 +32,7 @@
 *.VC.db
 
 # Unity3D generated meta files
+# 只忽略这些特定的 meta 文件
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
