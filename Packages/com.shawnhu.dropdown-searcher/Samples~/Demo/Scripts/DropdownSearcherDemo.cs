@@ -3,7 +3,7 @@ using ShawnHu.DropdownSearcher;
 
 namespace ShawnHu.DropdownSearcher.Samples
 {
-    [CreateAssetMenu(fileName = "DemoSettings", menuName = "DropdownSearcher/Demo设置")]
+    [CreateAssetMenu(fileName = "DropdownSearcherDemo", menuName = "DropdownSearcher/Demo")]
     public class DropdownSearcherDemo : ScriptableObject
     {
         [Header("基础示例")]
