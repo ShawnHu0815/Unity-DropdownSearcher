@@ -599,10 +599,10 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: UNITY_UOS_SECURITY
-    Standalone: UNITY_UOS_SECURITY
-    WebGL: UNITY_UOS_SECURITY
-    iPhone: UNITY_UOS_SECURITY
+    Android: 
+    Standalone: 
+    WebGL: 
+    iPhone: 
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
