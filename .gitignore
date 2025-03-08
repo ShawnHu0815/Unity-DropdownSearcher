@@ -16,6 +16,7 @@ plastic.selector
 .vs/
 .vscode/
 .idea/
+.plastic/
 *.csproj
 *.unityproj
 *.sln
